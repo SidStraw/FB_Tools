@@ -21,7 +21,7 @@ function openFb(fbLink) {
     var newCss = document.createElement('link');
     newCss.type = 'text/css';
     newCss.rel = "stylesheet";
-    newCss.href = "fbTool.css";
+    newCss.href = "//tools.half-straw.com/fbTool.css";
     headID.appendChild(newCss);
 
     var bodyID = document.getElementsByTagName("body")[0];
