@@ -1,4 +1,21 @@
+function addLoadEvent(function2) {
+    console.log('檢查onload');
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+        window.onload = function2;
+    } else {
+        window.onload = function() {
+            if (oldonload) {
+                oldonload();
+            }
+            function2();
+        }
+    }
+    console.log(oldonload);
+}
+
 function openFb(fbLink) {
+    console.log('檢查openFB');
     if (!fbLink) return;
     var headID = document.getElementsByTagName("head")[0];
     var newCss = document.createElement('link');
