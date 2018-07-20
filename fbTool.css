@@ -39,12 +39,15 @@
 
 #copyright {
     margin-top: 577px;
+    margin-left: 32px;
+    background-color: rgb(246, 247, 249);
     text-align: right;
+    border: 1px solid #e9ebee;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #copyright a {
     text-decoration: none;
-    color: black;
+    color: #484848;
 }
