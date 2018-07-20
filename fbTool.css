@@ -37,6 +37,10 @@
     float: left;
 }
 
+#cus_ser ul li {
+    list-style: none;
+}
+
 #copyright {
     margin-top: 577px;
     margin-left: 32px;
